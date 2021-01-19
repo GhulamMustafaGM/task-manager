@@ -1,11 +1,12 @@
+import Header from './components/Header'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello From React</h1>
-      <h2>hello </h2>
+    <div className="container">
+      <Header />
     </div>
   );
 }
 
-export default App;
+
+export default App
